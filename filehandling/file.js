@@ -1,6 +1,8 @@
 const fs = require('fs');
 
+const os = require('os');
 
+console.log(os.cpus());
 //syncc...
 //fs.writeFileSync('./test.txt','Hello Rakesh')
 
